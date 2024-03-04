@@ -3,30 +3,32 @@ import styled from "styled-components";
 import { useTranslation } from "react-i18next";
 
 const whatsAppImg = (
-  <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-    <rect fill="#25d366" height="512" rx="15%" width="512" />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="2489"
+    height="2500"
+    viewBox="0 0 737.509 740.824"
+    fill="white"
+  >
     <path
-      d="m123 393 14-65a138 138 0 1 1 50 47z"
-      fill="#25d366"
-      stroke="#fff"
-      strokeWidth="26"
-    />
-    <path
-      d="m308 273c-3-2-6-3-9 1l-12 16c-3 2-5 3-9 1-15-8-36-17-54-47-1-4 1-6 3-8l9-14c2-2 1-4 0-6l-12-29c-3-8-6-7-9-7h-8c-2 0-6 1-10 5-22 22-13 53 3 73 3 4 23 40 66 59 32 14 39 12 48 10 11-1 22-10 27-19 1-3 6-16 2-18"
-      fill="#fff"
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M630.056 107.658C560.727 38.271 468.525.039 370.294 0 167.891 0 3.16 164.668 3.079 367.072c-.027 64.699 16.883 127.855 49.016 183.523L0 740.824l194.666-51.047c53.634 29.244 114.022 44.656 175.481 44.682h.151c202.382 0 367.128-164.689 367.21-367.094.039-98.088-38.121-190.32-107.452-259.707m-259.758 564.8h-.125c-54.766-.021-108.483-14.729-155.343-42.529l-11.146-6.613-115.516 30.293 30.834-112.592-7.258-11.543c-30.552-48.58-46.689-104.729-46.665-162.379C65.146 198.865 202.065 62 370.419 62c81.521.031 158.154 31.81 215.779 89.482s89.342 134.332 89.311 215.859c-.07 168.242-136.987 305.117-305.211 305.117m167.415-228.514c-9.176-4.591-54.286-26.782-62.697-29.843-8.41-3.061-14.526-4.591-20.644 4.592-6.116 9.182-23.7 29.843-29.054 35.964-5.351 6.122-10.703 6.888-19.879 2.296-9.175-4.591-38.739-14.276-73.786-45.526-27.275-24.32-45.691-54.36-51.043-63.542-5.352-9.183-.569-14.148 4.024-18.72 4.127-4.11 9.175-10.713 13.763-16.07 4.587-5.356 6.116-9.182 9.174-15.303 3.059-6.122 1.53-11.479-.764-16.07-2.294-4.591-20.643-49.739-28.29-68.104-7.447-17.886-15.012-15.466-20.644-15.746-5.346-.266-11.469-.323-17.585-.323-6.117 0-16.057 2.296-24.468 11.478-8.41 9.183-32.112 31.374-32.112 76.521s32.877 88.763 37.465 94.885c4.587 6.122 64.699 98.771 156.741 138.502 21.891 9.45 38.982 15.093 52.307 19.323 21.981 6.979 41.983 5.994 57.793 3.633 17.628-2.633 54.285-22.19 61.932-43.616 7.646-21.426 7.646-39.791 5.352-43.617-2.293-3.826-8.41-6.122-17.585-10.714"
     />
   </svg>
 );
 
 const telegramImg = (
-  <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-    <rect fill="#37aee2" height="512" rx="15%" width="512" />
-    <path d="m199 404c-11 0-10-4-13-14l-32-105 245-144" fill="#c8daea" />
-    <path d="m199 404c7 0 11-4 16-8l45-43-56-34" fill="#a9c9dd" />
-    <path
-      d="m204 319 135 99c14 9 26 4 30-14l55-258c5-22-9-32-24-25l-321 124c-21 8-21 21-4 26l83 26 190-121c9-5 17-3 11 4"
-      fill="#f6fbfe"
-    />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    x="0px"
+    y="0px"
+    width="100"
+    height="100"
+    viewBox="0 0 50 50"
+    fill="white"
+  >
+    <path d="M25,2c12.703,0,23,10.297,23,23S37.703,48,25,48S2,37.703,2,25S12.297,2,25,2z M32.934,34.375	c0.423-1.298,2.405-14.234,2.65-16.783c0.074-0.772-0.17-1.285-0.648-1.514c-0.578-0.278-1.434-0.139-2.427,0.219	c-1.362,0.491-18.774,7.884-19.78,8.312c-0.954,0.405-1.856,0.847-1.856,1.487c0,0.45,0.267,0.703,1.003,0.966	c0.766,0.273,2.695,0.858,3.834,1.172c1.097,0.303,2.346,0.04,3.046-0.395c0.742-0.461,9.305-6.191,9.92-6.693	c0.614-0.502,1.104,0.141,0.602,0.644c-0.502,0.502-6.38,6.207-7.155,6.997c-0.941,0.959-0.273,1.953,0.358,2.351	c0.721,0.454,5.906,3.932,6.687,4.49c0.781,0.558,1.573,0.811,2.298,0.811C32.191,36.439,32.573,35.484,32.934,34.375z"></path>
   </svg>
 );
 
@@ -38,7 +40,8 @@ const FooterSection = styled.footer`
   padding: 30px 0;
   min-heigh: 550px;
   background: #232323;
-  color: white;
+  color: #818287;
+  font-family: var(--font-primary);
 
   .footer-container {
     padding: 0 15px;
@@ -76,12 +79,12 @@ const FooterSection = styled.footer`
   .site-name {
     font-family: var(--font-primary);
     font-size: var(--text-size-l);
-    color: white;
+    color: #818287;
     font-weight: 800;
   }
 
   .site-description {
-    color: var(--text-color-white);
+    color: #818287;
     font-size: var(--text-size-s);
   }
 
@@ -115,7 +118,7 @@ const FooterSection = styled.footer`
       font-family: var(--font-primary);
     }
     a {
-      color: white;
+      color: #818287;
     }
   }
 
@@ -201,7 +204,6 @@ export default function Footer() {
         <div className="footer-top">
           <div className="footer-branding">
             <a href="#" className="site-branding" rel="home">
-              <img src="./images/logo-1.png" className="site-logo" />
               <ul className="site-info">
                 <li className="site-name">{t("appTitle")}</li>
                 <li className="site-description">{t("appDescription")}</li>
@@ -211,15 +213,19 @@ export default function Footer() {
           <div className="footer-contacts">
             <h4>{t("footer-our-contacts")}</h4>
             <div className="links-wrap">
+              <p style={{ paddingBottom: "10px" }}>
+                {t("footer-regAddress")} <br />
+                25 Massachusetts Ave NW, Washington, DC 20001
+              </p>
               <a
-                href="https://wa.me/41766037164"
+                href="https://wa.me/11111111111"
                 target="_blank"
                 className="contacts-messenger-wrap"
               >
                 {whatsAppImg} <p>WhatsApp: +11 11 111 11 11</p>
               </a>
               <a
-                href="https://t.me/finvelsta"
+                href="https://t.me/11111111111"
                 target="_blank"
                 className="contacts-messenger-wrap"
               >
@@ -236,21 +242,17 @@ export default function Footer() {
               {t("footer-regDate")} <br />
               01.01.2001
             </p>
-            <p>
-              {t("footer-regAddress")} <br />
-              25 Massachusetts Ave NW, Washington, DC 20001
-            </p>
           </div>
         </div>
         <div className="footer-bottom">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.1139665886403!2d-77.01534581353306!3d38.89850907374392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b78a008349e3%3A0x4ff4ce0eca493349!2sGoogle%20DC%2C%2025%20Massachusetts%20Ave%20NW%2C%20Washington%2C%20DC%2020001!5e0!3m2!1suk!2sus!4v1709570944315!5m2!1suk!2sus"
-            width="400"
-            height="300"
-            style="border:0;"
-            allowfullscreen=""
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.1139665886403!2d-77.01534581353306!3d38.89850907374392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b78a008349e3%3A0x4ff4ce0eca493349!2sGoogle%20DC%2C%2025%20Massachusetts%20Ave%20NW%2C%20Washington%2C%20DC%2020001!5e0!3m2!1suk!2sus!4v1709571827592!5m2!1suk!2sus"
+            width="600"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>

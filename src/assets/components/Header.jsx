@@ -114,7 +114,7 @@ export default function Header({ changeLanguage }) {
       <div className="header-container">
         <div>
           <a href="#" className="site-branding" rel="home">
-            <img src="./images/logo-1.png" className="site-logo" />
+            <img src="./images/logo-black.svg" className="site-logo" />
             <ul className="site-info">
               <li className="site-name">{t("appTitle")}</li>
               <li className="site-description">{t("appDescription")}</li>

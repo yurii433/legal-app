@@ -114,10 +114,10 @@ export default function NavBar({ changeLanguage }) {
             </button>
             <button
               onClick={(e) => changeLanguage(e.target.value)}
-              value="ru"
+              value="ua"
               defaultValue
             >
-              RUS
+              UKR
             </button>
             <button onClick={(e) => changeLanguage(e.target.value)} value="pl">
               POL

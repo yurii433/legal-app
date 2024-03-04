@@ -208,7 +208,7 @@ const AdvancedCarousel = () => {
               <div className="review-top">
                 <img
                   className="review-img"
-                  src={`images/clients/client-${i + 1}.jpg`}
+                  src={`images/clients/client-${i + 1}.jpeg`}
                   alt=""
                   height="100px"
                   width="100px"

@@ -21,11 +21,11 @@ const SliderWrapper = styled.div`
     img {
       width: 100%;
       height: auto;
-      max-height: 50px;
+      max-height: 100%;
       object-fit: contain;
     }
   }
-  /* Change the color of the arrow icons inside prev/next buttons */
+
   .slick-prev:before,
   .slick-next:before {
     color: var(
@@ -33,7 +33,6 @@ const SliderWrapper = styled.div`
     ) !important; /* Add !important to override existing styles */
   }
 
-  /* Add hover effect if desired */
   .slick-prev:hover:before,
   .slick-next:hover:before {
     color: lightgray !important; /* Add !important to override existing styles */
@@ -105,10 +104,10 @@ const SimpleSlider = () => {
   return (
     <SliderWrapper>
       <Slider {...settings}>
-        {[10, 1, 11, 2, 14, 12, 3, 13, 4, 5, 6, 7, 8, 9].map((value, index) => (
+        {[1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3].map((value, index) => (
           <div className="slide" key={`partner-${value}-${index}`}>
             <img
-              src={`./images/partners/partner-${value}.png`}
+              src={`./images/partners/partner-${value}.svg`}
               alt={`partner-${value}`}
             />
           </div>
