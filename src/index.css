@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Manrope", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /**** FONT STYLING ***/
+  --font-primary: "Philosopher", "Times New Roman";
+  --font-secondary: "Manrope", sans-serif;
+  --text-color-black: black;
+  --text-color-gray: #5a5a5a;
+  --text-color-white: white;
+  --text-color-navy: #2b3d59;
+  --text-size-2xl: 36px;
+  --text-size-xl: 28px;
+  --text-size-l: 18px;
+  --text-size-m: 14px;
+  --text-size-s: 10px;
+  /*** PADDINGS AND MARGINS ***/
+  --section-padding: 0 15px;
+  --element-padding: 15px;
+  --element-margin-bottom: 0 0 30px 0;
+}
+
+#root {
+  margin: 0 auto;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
