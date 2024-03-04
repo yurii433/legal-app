@@ -216,42 +216,41 @@ export default function Footer() {
                 target="_blank"
                 className="contacts-messenger-wrap"
               >
-                {whatsAppImg} <p>WhatsApp: +41 76 603 71 64</p>
+                {whatsAppImg} <p>WhatsApp: +11 11 111 11 11</p>
               </a>
               <a
                 href="https://t.me/finvelsta"
                 target="_blank"
                 className="contacts-messenger-wrap"
               >
-                {telegramImg} <p>Telegram: +41 77 537 23 42</p>
+                {telegramImg} <p>Telegram: +11 11 111 11 11</p>
               </a>
             </div>
 
-            <a href="mailto: legaldepartment@fin-velsta.com">
-              legaldepartment@fin-velsta.com
-            </a>
+            <a href="mailto: contact@apexlaw.com">contact@apexlaw.com</a>
             <p>
               {t("footer-regNumber")} <br />
-              CHE-411.167.066
+              AAA-111.111.111
             </p>
             <p>
               {t("footer-regDate")} <br />
-              09.29.2014
+              01.01.2001
             </p>
             <p>
               {t("footer-regAddress")} <br />
-              c/o TMed SA Rue Dr-Alfred-Vincent 5 1201 Genève, Switzerland
+              25 Massachusetts Ave NW, Washington, DC 20001
             </p>
           </div>
         </div>
         <div className="footer-bottom">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.047710658685!2d6.146875376042001!3d46.209505883403665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c65244b1c2109%3A0xa784337e1b529941!2zUnVlIERvY3RldXItQWxmcmVkLVZpbmNlbnQgNSwgMTIwMSBHZW7DqHZlLCDQqNCy0LXQudGG0LDRgNGW0Y8!5e0!3m2!1suk!2sde!4v1699983835144!5m2!1suk!2sde"
-            width="600"
-            height="450"
-            allowFullScreen=""
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.1139665886403!2d-77.01534581353306!3d38.89850907374392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b78a008349e3%3A0x4ff4ce0eca493349!2sGoogle%20DC%2C%2025%20Massachusetts%20Ave%20NW%2C%20Washington%2C%20DC%2020001!5e0!3m2!1suk!2sus!4v1709570944315!5m2!1suk!2sus"
+            width="400"
+            height="300"
+            style="border:0;"
+            allowfullscreen=""
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
+            referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>
